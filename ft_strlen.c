@@ -6,11 +6,11 @@
 /*   By: osallak <osallak@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 09:44:33 by osallak           #+#    #+#             */
-/*   Updated: 2021/11/04 20:33:00 by osallak          ###   ########.fr       */
+/*   Updated: 2021/11/18 18:16:18 by osallak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
+#include"libft.h"
 
 size_t	ft_strlen(const char *str)
 {

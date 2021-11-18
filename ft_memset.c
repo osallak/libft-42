@@ -6,11 +6,11 @@
 /*   By: osallak <osallak@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 13:26:19 by osallak           #+#    #+#             */
-/*   Updated: 2021/11/04 19:56:25 by osallak          ###   ########.fr       */
+/*   Updated: 2021/11/18 18:06:11 by osallak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
+#include"libft.h"
 
 void	*ft_memset(void *b, int c, size_t len)
 {

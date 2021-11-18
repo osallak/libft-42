@@ -6,22 +6,15 @@
 /*   By: osallak <osallak@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 17:47:07 by osallak           #+#    #+#             */
-/*   Updated: 2021/11/11 14:33:34 by osallak          ###   ########.fr       */
+/*   Updated: 2021/11/18 20:43:35 by osallak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
 #include"libft.h"
-#include<stdio.h>
 
 void	*ft_memmove(void *dest, const void *src, size_t len)
 {
-	int	*p_src;
-	int	*p_dest;
-
-	p_src = (int *)src;
-	p_dest = (int *)dest;
-	if (p_dest > p_src)
+	if (dest > src)
 	{
 		len--;
 		while ((int)len >= 0)

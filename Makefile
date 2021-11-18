@@ -6,23 +6,16 @@
 #    By: osallak <osallak@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/15 22:54:23 by osallak           #+#    #+#              #
-#    Updated: 2021/11/17 00:42:47 by osallak          ###   ########.fr        #
+#    Updated: 2021/11/18 18:10:23 by osallak          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME =	libft.a
+INC = libft.h
 SRCS =	ft_atoi.c\
 		ft_isalpha.c\
-		ft_isalpha.c\
-		ft_isalpha.c\
-		ft_itoa.c\
-		ft_itoa.c\
 		ft_itoa.c\
 		ft_memmove.c\
-		ft_memmove.c\
-		ft_memmove.c\
-		ft_putnbr_fd.c\
-		ft_putnbr_fd.c\
 		ft_putnbr_fd.c\
 		ft_strdup.c\
 		ft_strlcpy.c\
@@ -65,11 +58,15 @@ B_SRCS =	ft_lstnew.c\
 OBJS = $(SRCS:.c=.o)
 B_OBJS = $(B_SRCS:.c=.o)
 CFLAGS = -Wall -Werror -Wextra
-RM = rm -f
+CC = gcc
+RM = @rm -f
 AR = @ar -rcs
 
 all: $(NAME)
 
+%.o:%.c $(INC)
+	$(CC) $(CFLAGS) -o $@ -c $< -I $(INC)
+	
 $(NAME):$(OBJS)
 	$(AR) $(NAME) $(OBJS)
 
@@ -83,3 +80,4 @@ fclean:clean
 	$(RM) $(NAME)
 
 re: fclean all
+.PHONY : re fclean clean bonus all

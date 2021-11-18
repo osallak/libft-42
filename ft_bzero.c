@@ -6,11 +6,11 @@
 /*   By: osallak <osallak@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 14:19:26 by osallak           #+#    #+#             */
-/*   Updated: 2021/11/06 18:48:03 by osallak          ###   ########.fr       */
+/*   Updated: 2021/11/18 18:05:01 by osallak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
+#include"libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {

@@ -6,11 +6,9 @@
 /*   By: osallak <osallak@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/04 15:04:45 by osallak           #+#    #+#             */
-/*   Updated: 2021/11/12 21:11:32 by osallak          ###   ########.fr       */
+/*   Updated: 2021/11/18 18:04:46 by osallak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include<stdio.h>
 
 int	ft_atoi(const char *str)
 {

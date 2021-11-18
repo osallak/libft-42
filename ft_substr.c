@@ -6,11 +6,10 @@
 /*   By: osallak <osallak@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/04 19:46:19 by osallak           #+#    #+#             */
-/*   Updated: 2021/11/11 12:17:19 by osallak          ###   ########.fr       */
+/*   Updated: 2021/11/18 18:08:47 by osallak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
 #include<stdlib.h>
 #include"libft.h"
 

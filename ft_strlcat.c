@@ -6,11 +6,10 @@
 /*   By: osallak <osallak@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 20:37:02 by osallak           #+#    #+#             */
-/*   Updated: 2021/11/09 18:00:42 by osallak          ###   ########.fr       */
+/*   Updated: 2021/11/18 18:16:28 by osallak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
 #include"libft.h"
 
 size_t	ft_strlcat(char *dest, const char *src, size_t n)
