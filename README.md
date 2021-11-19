@@ -1,5 +1,5 @@
 # libft
-# Libft (42cursus) 2021
+Libft (42cursus) 2021
 
 - Actual Status : finished.
 - Result        : 125%
