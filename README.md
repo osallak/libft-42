@@ -4,6 +4,4 @@ Libft (42cursus) 2021
 - ``Actual Status`` : finished.
 - ``Final grade``        : 125%
 - ``subject`` https://github.com/osallak/libft-42/blob/master/en.subject.pdf
-- need help:
- osallak@student.1337.ma
  - [![forthebadge](https://forthebadge.com/images/badges/made-with-c.svg)](https://forthebadge.com)
