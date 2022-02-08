@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: osallak <osallak@student.42.fr>            +#+  +:+       +#+         #
+#    By: osallak <osallak@student.1337.ma>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/15 22:54:23 by osallak           #+#    #+#              #
-#    Updated: 2021/11/18 18:10:23 by osallak          ###   ########.fr        #
+#    Updated: 2022/02/08 16:18:14 by osallak          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,7 +45,9 @@ SRCS =	ft_atoi.c\
 		ft_strchr.c\
 		ft_strlcat.c\
 		ft_strncmp.c\
-		ft_substr.c
+		ft_substr.c\
+		ft_isvowel.c\
+		ft_isconsonant.c
 B_SRCS =	ft_lstnew.c\
 			ft_lstadd_front.c\
 			ft_lstsize.c\
